@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 
-import Bio from '../components/Bio'
+// import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
 import { rhythm } from '../utils/typography'
@@ -11,6 +11,8 @@ class BlogIndex extends React.Component {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
+
+    console.dir(data);
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -32,8 +34,10 @@ class BlogIndex extends React.Component {
                   {title}
                 </Link>
               </h3>
-              <small>{node.frontmatter.date}</small>
-              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+              <small>
+                <b>{node.frontmatter.tripsMain}</b> {node.frontmatter.tripsLocal}
+              </small>
+              <p>{node.frontmatter.abstract}</p>
             </div>
           )
         })}
@@ -41,6 +45,8 @@ class BlogIndex extends React.Component {
     )
   }
 }
+
+// <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
 
 export default BlogIndex
 
@@ -60,7 +66,11 @@ export const pageQuery = graphql`
           }
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
-            title
+            title,
+            tripsMain,
+            tripsLocal,
+            place,
+            abstract
           }
         }
       }
