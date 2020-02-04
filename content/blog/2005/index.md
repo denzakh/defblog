@@ -33,7 +33,7 @@ abstract: 'Один из самых веселых периодов в моей 
 
 `video:https://youtu.be/N3kkNfH4yco`
 
-####Лето
+###Лето
 
 В начале лета Машка закончила училище и переехала жить ко мне в Оренбург. Я был просто счастлив.
 
@@ -81,7 +81,7 @@ abstract: 'Один из самых веселых периодов в моей 
 
 ![](m/saraktash.ru2005.jpg)
 
-####Осень
+###Осень
 
 Осенью мне исполнилось **22 года**. Началась уже порядком надоевшая учеба, к нам в группу пришел Шакир. Шел последний **6 курс**.
 
@@ -117,16 +117,15 @@ abstract: 'Один из самых веселых периодов в моей 
 
 ####хорошая музыка из 2005 года:
 
-- Havana Funk – Bakiri Ban (major boys remix)
-- Decl And Benzina – Legalize(Dub Uplifto Edit)
-- KID Q – Save Me (acrylite remix)
-- Michael Gray – Can't Wait For The Weekend
-- C-MoS – 2 Million Ways (Axwell Remix)
-- Benny Benassi – Love Is Gonna Save Us
-- Global Deejays – Flashdance
-- Layo & Bushwacka – Love Story
-- MAN-RO – Bambarbia (Lead Radio Mix)
-- Катя Чехова – Я робот
-- Чугунный скороход – половинка (buzz_mix)
-- Casteam – I Don't
-- Whitelabel – Not With You
+- [Havana Funk – Bakiri Ban (major boys remix)](https://youtu.be/ny_zk9_wvmI)
+- [Decl And Benzina – Legalize(Dub Uplifto Edit)](https://ssh.cools.biz/song/118672-decl/47781513-legalize-benzina-dub-uplifto-edit/)
+- [KID Q – Save Me (acrylite remix)](https://ru235.iplayer.info/song/78765603/KID_Q_-_Save_Me_acrylite_remix/)
+- [Michael Gray – Can't Wait For The Weekend](https://youtu.be/N3kkNfH4yco)
+- [C-MoS – 2 Million Ways (Axwell Remix)](https://youtu.be/HPssThWONWk)
+- [Benny Benassi – Love Is Gonna Save Us](https://youtu.be/ORRRKqn39o4s)
+- [Global Deejays – Flashdance](https://youtu.be/w2ohwM9iO6k)
+- [MAN-RO – Bambarbia (Lead Radio Mix)](https://youtu.be/N3qCSlgBXn0)
+- [Катя Чехова – Я робот](https://youtu.be/fmoz1ru3Y1k)
+- [Чугунный скороход – половинка (buzz_mix)](https://youtu.be/8cV6ndTWZns)
+- [Casteam – I Don't](https://youtu.be/XP-7RpLnShM)
+- [Whitelabel – Not With You](https://youtu.be/2fZow8S1GfM)
