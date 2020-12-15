@@ -12,7 +12,7 @@ class BlogIndex extends React.Component {
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
 
-    console.dir(data);
+
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -22,7 +22,10 @@ class BlogIndex extends React.Component {
         />
 
         {posts.map(({ node }) => {
+          console.dir(node.frontmatter);
           const title = node.frontmatter.title || node.fields.slug
+          const img = node.frontmatter.img || "";
+
           return (
             <div key={node.fields.slug}>
               <h3
@@ -38,6 +41,7 @@ class BlogIndex extends React.Component {
                 <b>{node.frontmatter.tripsMain}</b> {node.frontmatter.tripsLocal}
               </small>
               <p>{node.frontmatter.abstract}</p>
+              <p>{img}</p>
             </div>
           )
         })}
