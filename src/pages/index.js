@@ -5,12 +5,20 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
 import { rhythm } from '../utils/typography'
+import Img from 'gatsby-image'
 
 class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
+
+    let isImg = (img) => {
+      if(img) {
+        return <Img fluid={img.childImageSharp.fluid} />
+      }
+      return null;
+    }
 
 
 
@@ -22,9 +30,8 @@ class BlogIndex extends React.Component {
         />
 
         {posts.map(({ node }) => {
-          console.dir(node.frontmatter);
+          console.dir(node.frontmatter.img);
           const title = node.frontmatter.title || node.fields.slug
-          const img = node.frontmatter.img || "";
 
           return (
             <div key={node.fields.slug}>
@@ -41,7 +48,7 @@ class BlogIndex extends React.Component {
                 <b>{node.frontmatter.tripsMain}</b> {node.frontmatter.tripsLocal}
               </small>
               <p>{node.frontmatter.abstract}</p>
-              <p>{img}</p>
+              {isImg(node.frontmatter.img)}
             </div>
           )
         })}
@@ -74,7 +81,14 @@ export const pageQuery = graphql`
             tripsMain,
             tripsLocal,
             place,
-            abstract
+            abstract,
+            img {
+              childImageSharp {
+                fluid(maxWidth: 1000, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }

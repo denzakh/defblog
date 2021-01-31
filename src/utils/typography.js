@@ -24,7 +24,7 @@ const typography = new Typography(t1)
 
 //
 
-console.dir(typography.options);
+// console.dir(typography.options);
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {

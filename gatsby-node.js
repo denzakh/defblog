@@ -22,7 +22,7 @@ exports.createPages = ({ graphql, actions }) => {
                 tripsMain,
                 tripsLocal,
                 place,
-                abstract
+                abstract,
               }
             }
           }
