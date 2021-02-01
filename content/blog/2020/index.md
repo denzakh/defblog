@@ -5,7 +5,7 @@ tripsMain: Крым с Юлей и Дашей
 tripsLocal: Оренбург, Зеленогорск
 place: Санкт-Петербург
 abstract: эпидемия коронавируса.
-img: promo.jpg
+img: "./promo.jpg"
 ---
 
 ![](img/20200528_194055.jpg)
