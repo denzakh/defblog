@@ -58,7 +58,7 @@ class BlogIndex extends React.Component {
 }
 
 // <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-
+//sort: { fields: [frontmatter___date], order: DESC}
 export default BlogIndex
 
 export const pageQuery = graphql`
@@ -68,7 +68,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date]}) {
       edges {
         node {
           excerpt
