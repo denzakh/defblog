@@ -88,17 +88,14 @@ img: "./promo.jpg"
 
 В этом году регулярно показывают мультики:
 
-Девер &ndash; французский мультик про динозавра.
+**Мишки Гамми** (1992-1993), даже рисовал картины по нему
 
-`video: https://youtu.be/Q1C7mbusR3U`
+`video: https://youtu.be/8Jeh2MUjyyI`
 
 Черный плащ
 
 `video: https://youtu.be/RnuPcoaZjd4`
 
-Новые приключения Винни-Пуха
-
-![](dop/vinni.jpg)
 
 ---
 
